@@ -6,6 +6,7 @@ It contains two activity.java files one for the animation which is SplashScreenA
 Its also gives the user an ability to share his/her results on whatsapp.
 There is an accuracy in marking meaning their cannot be redudndacy in answering. Also it prevents multiple answering.
 Once the next button is clicked it assumes you have already answered the previous question.
+There is also a toast that appears when the user goes through all questions
 
 It contains :
 4 TextViews
