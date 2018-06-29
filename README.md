@@ -16,4 +16,40 @@ It contains :
 
 I have included files that I dealt with during the making of the program
 
+I uploaded the main files except only AndroidManifest.xml
+
+Here is the code for it that I added.
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lawkeegabanna.helloandroid_">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"/>
+                <category
+                    android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+this is very necessary for the SplashScreen to work. 
 https://drive.google.com/drive/folders/1sZNswH-bUz4PYocowWjBg6j_D2Eqf2d3?usp=sharing
